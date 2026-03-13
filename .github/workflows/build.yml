@@ -1,0 +1,41 @@
+name: Build Custom Iosevka
+
+# Esto define cuándo se ejecuta la acción
+on:
+  workflow_dispatch: # Permite ejecutar el proceso manualmente con un botón
+  push:
+    paths:
+      - 'private-build-plans.toml' # Se ejecuta automáticamente si modificas tu configuración
+
+jobs:
+  build-fonts:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' # Iosevka requiere una versión reciente de Node
+
+      - name: Instalar ttfautohint (para optimización en pantallas)
+        run: sudo apt-get update && sudo apt-get install -y ttfautohint
+
+      - name: Instalar dependencias de Iosevka
+        run: npm install
+
+      # ATENCIÓN AQUÍ: Debes reemplazar "IosevkaCustom" por el nombre exacto de tu familia en el archivo TOML
+      - name: Compilar versión de Escritorio (TTF)
+        run: npm run build -- ttf::CrisoevkaText 
+
+      - name: Compilar versión Web (WOFF2)
+        run: npm run build -- woff2::CrisoevkaText
+
+      - name: Guardar archivos generados
+        uses: actions/upload-artifact@v4
+        with:
+          name: mis-fuentes-iosevka
+          path: dist/
+          retention-days: 7 # El archivo .zip estará disponible para descarga por 7 días
