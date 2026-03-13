@@ -1,0 +1,145 @@
+[buildPlans.CrisoevkaText]
+family = "Crisoevka Text"
+spacing = "quasi-proportional"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+noLigation = true
+
+  [buildPlans.CrisoevkaText.variants]
+  inherits = "ss01"
+
+    [buildPlans.CrisoevkaText.variants.design]
+    one = "no-base"
+    two = "curly-neck-serifless"
+    three = "two-arcs"
+    four = "closed-non-crossing-serifless"
+    five = "upright-arched-serifless"
+    six = "open-contour"
+    seven = "bend-serifless"
+    eight = "crossing-asymmetric"
+    nine = "open-contour"
+    zero = "unslashed"
+    capital-a = "straight-serifless"
+    capital-b = "standard-serifless"
+    capital-c = "serifless"
+    capital-d = "more-rounded-serifless"
+    capital-e = "serifless"
+    capital-f = "serifless"
+    capital-g = "toothed-serifless-hooked"
+    capital-i = "serifless"
+    capital-j = "flat-hook-serifless"
+    capital-k = "curly-serifless"
+    capital-m = "slanted-sides-hanging-serifless"
+    capital-n = "standard-serifless"
+    capital-p = "closed-serifless"
+    capital-q = "curly-tailed"
+    capital-r = "curly-serifless"
+    capital-s = "serifless"
+    capital-u = "toothless-rounded-serifless"
+    capital-v = "straight-serifless"
+    capital-w = "straight-flat-top-serifless"
+    capital-x = "straight-serifless"
+    capital-y = "straight-serifless"
+    capital-z = "straight-serifless"
+    a = "double-storey-serifless"
+    f = "flat-hook-serifless"
+    g = "double-storey"
+    i = "zshaped"
+    j = "flat-hook-serifless"
+    k = "straight-serifless"
+    l = "zshaped"
+    m = "serifless"
+    p = "eared-serifless"
+    q = "straight-serifless"
+    r = "compact-serifless"
+    t = "diagonal-tailed"
+    v = "straight-serifless"
+    w = "straight-flat-top-serifless"
+    x = "straight-serifless"
+    y = "straight-serifless"
+    z = "straight-serifless"
+    punctuation-dot = "round"
+    asterisk = "hex-mid"
+    ascii-grave = "raised-turn-comma"
+    ascii-single-quote = "raised-comma"
+    ampersand = "closed"
+    dollar = "slanted-open"
+    question = "smooth"
+    lig-single-arrow-bar = "with-notch"
+
+    [buildPlans.CrisoevkaText.variants.italic]
+    one = "no-base"
+    two = "curly-neck-serifless"
+    three = "two-arcs"
+    four = "closed-non-crossing-serifless"
+    five = "upright-arched-serifless"
+    six = "open-contour"
+    seven = "bend-serifless"
+    eight = "crossing-asymmetric"
+    nine = "open-contour"
+    zero = "unslashed"
+    capital-a = "straight-serifless"
+    capital-b = "standard-serifless"
+    capital-c = "serifless"
+    capital-d = "more-rounded-serifless"
+    capital-e = "serifless"
+    capital-f = "serifless"
+    capital-g = "toothed-serifless-hooked"
+    capital-i = "serifless"
+    capital-j = "flat-hook-serifless"
+    capital-k = "curly-serifless"
+    capital-m = "slanted-sides-hanging-serifless"
+    capital-n = "standard-serifless"
+    a = "single-storey-serifless"
+    b = "toothless-corner-serifless"
+    c = "bilateral-inward-serifed"
+    d = "toothless-corner-serifless"
+    e = "rounded"
+    f = "flat-hook-tailed"
+    g = "single-storey-flat-hook-top-cut"
+    h = "tailed-motion-serifed"
+    i = "serifed-diagonal-tailed"
+    j = "flat-hook-serifed"
+    k = "cursive-serifless"
+    l = "serifed-flat-tailed"
+    m = "earless-corner-double-arch-serifless"
+    n = "earless-corner-straight-serifless"
+    p = "earless-corner-serifless"
+    q = "earless-corner-straight-serifless"
+    r = "earless-corner-serifless"
+    t = "bent-hook-asymmetric"
+    u = "toothless-rounded-serifless"
+    v = "cursive-serifless"
+    w = "straight-vertical-sides-flat-top-motion-serifed"
+    x = "semi-chancery-curly-serifless"
+    y = "cursive-flat-hook-motion-serifed"
+    z = "cursive"
+    lig-single-arrow-bar = "with-notch"
+
+[buildPlans.CrisoevkaText.widths.Condensed]
+shape = 416
+menu = 3
+css = "condensed"
+
+[buildPlans.CrisoevkaText.widths.Normal]
+shape = 600
+menu = 5
+css = "normal"
+
+[buildPlans.CrisoevkaText.widths.Extended]
+shape = 720
+menu = 7
+css = "expanded"
+
+[buildPlans.CrisoevkaText.slopes.Upright]
+angle = 0
+shape = "upright"
+menu = "upright"
+css = "normal"
+
+[buildPlans.CrisoevkaText.slopes.Italic]
+angle = 9.4
+shape = "italic"
+menu = "italic"
+css = "italic"
