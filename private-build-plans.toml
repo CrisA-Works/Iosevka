@@ -14,12 +14,12 @@ noLigation = true
     two = "curly-neck-serifless"
     three = "two-arcs"
     four = "closed-non-crossing-serifless"
-    five = "upright-arched-serifless"
+    five = "oblique-arched-serifless"
     six = "open-contour"
     seven = "bend-serifless"
     eight = "crossing-asymmetric"
     nine = "open-contour"
-    zero = "unslashed"
+    zero = "oval-slashed"
     capital-a = "straight-serifless"
     capital-b = "standard-serifless"
     capital-c = "serifless"
@@ -45,10 +45,10 @@ noLigation = true
     a = "double-storey-serifless"
     f = "flat-hook-serifless"
     g = "double-storey"
-    i = "hooky"
+    i = "semi-tailed"
     j = "flat-hook-serifless"
     k = "straight-serifless"
-    l = "hooky-bottom"
+    l = "hooky"
     m = "serifless"
     p = "eared-serifless"
     q = "straight-serifless"
@@ -113,7 +113,7 @@ noLigation = true
     v = "cursive-serifless"
     w = "straight-vertical-sides-flat-top-motion-serifed"
     x = "semi-chancery-curly-serifless"
-    y = "cursive-flat-hook-motion-serifed"
+    y = "cursive-flat-hook-serifless"
     z = "cursive"
     lig-single-arrow-bar = "with-notch"
 
@@ -121,6 +121,16 @@ noLigation = true
 shape = 400
 menu = 400
 css = 400
+
+[buildPlans.CrisoevkaText.weights.SemiBold]
+shape = 600
+menu = 600
+css = 600
+
+[buildPlans.CrisoevkaText.weights.Heavy]
+shape = 900
+menu = 900
+css = 900
 
 [buildPlans.CrisoevkaText.widths.Normal]
 shape = 600
