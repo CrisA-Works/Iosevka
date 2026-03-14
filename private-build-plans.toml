@@ -45,15 +45,15 @@ noLigation = true
     a = "double-storey-serifless"
     f = "flat-hook-serifless"
     g = "double-storey"
-    i = "zshaped"
+    i = "hooky"
     j = "flat-hook-serifless"
     k = "straight-serifless"
-    l = "zshaped"
+    l = "hooky-bottom"
     m = "serifless"
     p = "eared-serifless"
     q = "straight-serifless"
     r = "compact-serifless"
-    t = "diagonal-tailed"
+    t = "flat-hook"
     v = "straight-serifless"
     w = "straight-flat-top-serifless"
     x = "straight-serifless"
@@ -91,15 +91,15 @@ noLigation = true
     capital-k = "curly-serifless"
     capital-m = "slanted-sides-hanging-serifless"
     capital-n = "standard-serifless"
-    a = "single-storey-serifless"
-    b = "toothless-corner-serifless"
+    a = "single-storey-earless-corner-serifed"
+    b = "bottom-cut-serifed"
     c = "bilateral-inward-serifed"
     d = "toothless-corner-serifless"
     e = "rounded"
     f = "flat-hook-tailed"
     g = "single-storey-flat-hook-top-cut"
     h = "tailed-motion-serifed"
-    i = "serifed-diagonal-tailed"
+    i = "serifed-semi-tailed"
     j = "flat-hook-serifed"
     k = "cursive-serifless"
     l = "serifed-flat-tailed"
@@ -108,7 +108,7 @@ noLigation = true
     p = "earless-corner-serifless"
     q = "earless-corner-straight-serifless"
     r = "earless-corner-serifless"
-    t = "bent-hook-asymmetric"
+    t = "flat-hook-asymmetric-short-neck"
     u = "toothless-rounded-serifless"
     v = "cursive-serifless"
     w = "straight-vertical-sides-flat-top-motion-serifed"
@@ -117,20 +117,20 @@ noLigation = true
     z = "cursive"
     lig-single-arrow-bar = "with-notch"
 
-[buildPlans.CrisoevkaText.widths.Condensed]
-shape = 416
-menu = 3
-css = "condensed"
+[buildPlans.CrisoevkaText.weights.Regular]
+shape = 400
+menu = 400
+css = 400
 
 [buildPlans.CrisoevkaText.widths.Normal]
 shape = 600
 menu = 5
 css = "normal"
 
-[buildPlans.CrisoevkaText.widths.Extended]
-shape = 720
-menu = 7
-css = "expanded"
+[buildPlans.CrisoevkaText.widths.Condensed]
+shape = 416
+menu = 3
+css = "condensed"
 
 [buildPlans.CrisoevkaText.slopes.Upright]
 angle = 0
