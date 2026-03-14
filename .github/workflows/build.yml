@@ -28,10 +28,10 @@ jobs:
 
       # ATENCIÓN AQUÍ: Debes reemplazar "IosevkaCustom" por el nombre exacto de tu familia en el archivo TOML
       - name: Compilar versión de Escritorio (TTF)
-        run: npm run build -- ttf::CrisoevkaText 
+        run: npm run build -- ttf::CriosevkaText 
 
       - name: Compilar versión Web (WOFF2)
-        run: npm run build -- woff2::CrisoevkaText
+        run: npm run build -- woff2::CriosevkaText
 
       - name: Guardar archivos generados
         uses: actions/upload-artifact@v4
